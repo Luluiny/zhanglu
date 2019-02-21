@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  .index-main{
+      height: 1000px;
+    }
+  .index-main img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .content{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 1.5em;
+    color: #fefefe;
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 40%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    transition: top 1s ease;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .content ul{
+    list-style: none;
+  }
+  .content ul a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 0 1px 1px #333;
+    font-size: large;
+  }
+  </style>
+</head>
+<body>
+ <div class="index-main">
+   <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550143404806&di=0980be6bd748b6791b63798c8f4f1f99&imgtype=0&src=http%3A%2F%2Fimg3.333cn.com%2Fimg333cn%2F2017%2F11%2F14%2F1510643125765.jpg" alt="">
+   <div class="content">
+    <ul>
+      <li><a href="javascript:;">郭先生&张小姐</a></li>
+      <li><a href="javascript:;">技术分享</a></li>
+    </ul>
+   </div>
+ </div> 
+</body>
+</html>
